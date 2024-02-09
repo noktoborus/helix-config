@@ -61,6 +61,7 @@ C-v = ":clipboard-paste-before"
 esc = ["keep_primary_selection"]
 
 [keys.insert]
+C-n = "completion"
 C-v = ":clipboard-paste-before"
 C-c = ["keep_primary_selection", "normal_mode"]
 
