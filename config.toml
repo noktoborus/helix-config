@@ -10,6 +10,7 @@ line-number = "absolute"
 auto-pairs = false
 cursorline = true
 auto-format = false
+insert-final-newline = false
 
 [editor.lsp]
 enable = true
