@@ -1,6 +1,7 @@
 theme = "gruvbox_dark_hard"
 
 [editor]
+bufferline = "always"
 true-color = true
 color-modes = true
 rulers = [80, 120]
