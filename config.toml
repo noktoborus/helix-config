@@ -42,6 +42,8 @@ select = "underline"
 hidden = false
 
 [keys.normal]
+space.F = "file_picker_in_current_buffer_directory"
+
 "*" = ["move_char_right", "move_prev_word_start", "move_next_word_end", "search_selection", "search_next"]
 "#" = ["move_char_right", "move_prev_word_start", "move_next_word_end", "search_selection", "search_prev"]
 
@@ -52,3 +54,4 @@ C-n = "completion"
 C-n = "completion"
 
 [keys.select]
+space.F = "file_picker_in_current_buffer_directory"
