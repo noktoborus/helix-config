@@ -1,6 +1,2 @@
-[[language]]
-name = "rust"
-auto-format = true
-
 [language-server.clangd]
 args = ["--header-insertion=never"]
