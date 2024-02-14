@@ -49,9 +49,13 @@ space.F = "file_picker_in_current_buffer_directory"
 
 space.c = "toggle_comments"
 C-n = "completion"
+C-right = "move_next_word_start"
+C-left = "move_prev_word_end"
 
 [keys.insert]
 C-n = "completion"
+C-right = "move_next_word_start"
+C-left = "move_prev_word_end"
 
 [keys.select]
 space.F = "file_picker_in_current_buffer_directory"
