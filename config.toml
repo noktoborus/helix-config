@@ -59,8 +59,8 @@ S-right = ["select_mode", "extend_char_right"]
 
 [keys.insert]
 C-c = "normal_mode"
-C-right = "move_next_word_start"
-C-left = "move_prev_word_end"
+C-right = ["move_next_word_end", "move_char_right", "collapse_selection"]
+C-left = ["move_prev_word_start", "collapse_selection"]
 S-up = ["select_mode", "extend_visual_line_up"]
 S-down = ["select_mode", "extend_visual_line_down"]
 S-left = ["select_mode", "extend_char_left"]
