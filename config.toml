@@ -11,6 +11,7 @@ auto-pairs = false
 cursorline = true
 auto-format = true
 insert-final-newline = false
+auto-completion = false
 
 [editor.lsp]
 enable = true
