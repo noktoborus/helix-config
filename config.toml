@@ -48,7 +48,6 @@ space.X = ":reset-diff-change"
 "*" = ["move_char_right", "move_prev_word_start", "move_next_word_end", "search_selection", "search_next"]
 "#" = ["move_char_right", "move_prev_word_start", "move_next_word_end", "search_selection", "search_prev"]
 
-space.c = "toggle_comments"
 C-right = "move_next_word_start"
 C-left = "move_prev_word_end"
 del = "delete_char_forward"
