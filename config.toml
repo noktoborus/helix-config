@@ -11,7 +11,6 @@ auto-pairs = false
 cursorline = true
 auto-format = true
 insert-final-newline = false
-auto-completion = false
 
 [editor.lsp]
 enable = true
@@ -44,6 +43,7 @@ hidden = false
 
 [keys.normal]
 space.F = "file_picker_in_current_buffer_directory"
+space.X = ":reset-diff-change"
 
 "*" = ["move_char_right", "move_prev_word_start", "move_next_word_end", "search_selection", "search_next"]
 "#" = ["move_char_right", "move_prev_word_start", "move_next_word_end", "search_selection", "search_prev"]
