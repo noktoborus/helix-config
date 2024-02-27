@@ -1,2 +1,6 @@
 [language-server.clangd]
 args = ["--header-insertion=never"]
+
+[[language]]
+name = "c"
+auto-format = true

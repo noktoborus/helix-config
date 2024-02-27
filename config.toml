@@ -28,9 +28,9 @@ character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
 skip-levels = 1
 
 [editor.statusline]
-left = ["mode", "spinner"]
-center = ["file-name"]
-right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+left = ["mode", "spinner", "file-name", "file-modification-indicator", "read-only-indicator"]
+center = ["register"]
+right = ["diagnostics", "spacer", "version-control", "spacer", "separator", "selections", "position", "total-line-numbers", "file-encoding", "file-line-ending", "separator", "file-type"]
 separator = "│"
 
 [editor.cursor-shape]
@@ -55,6 +55,8 @@ S-up = ["select_mode", "extend_visual_line_up"]
 S-down = ["select_mode", "extend_visual_line_down"]
 S-left = ["select_mode", "extend_char_left"]
 S-right = ["select_mode", "extend_char_right"]
+
+space.B = ":run-shell-command $HOME/.config/helix/zellij-helix-blame.sh"
 
 [keys.insert]
 C-c = "normal_mode"
