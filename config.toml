@@ -9,7 +9,7 @@ auto-save = true
 line-number = "absolute"
 cursorline = true
 auto-format = true
-insert-final-newline = false
+insert-final-newline = true
 auto-completion = false
 
 [editor.lsp]
