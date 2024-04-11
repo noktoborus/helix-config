@@ -12,6 +12,9 @@ auto-format = true
 insert-final-newline = true
 auto-completion = false
 
+[editor.smart-tab]
+enable = false
+
 [editor.lsp]
 enable = true
 display-messages = true
